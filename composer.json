@@ -1,12 +1,12 @@
 {
-  "name": "madewithlove/laravel-debug-console",
+  "name": "biohazard/laravel-debug-console",
   "description": "Works as a console viewer for laravel debugbar.",
   "keywords": ["laravel", "debugbar", "debug", "console"],
   "license": "MIT",
   "authors": [
     {
-      "name": "madewithlove",
-      "email": "heroes@madewithlove.be"
+      "name": "biohazard",
+      "email": "stalker-nikko@yandex.ru"
     }
   ],
   "require": {
@@ -14,6 +14,9 @@
     "illuminate/console": "^10.7.1",
     "barryvdh/laravel-debugbar": "^3.8.1",
     "clue/stdio-react": "^2.6.0"
+  },
+  "require-dev": {
+    "madewithlove/php-cs-fixer-config": "^1.8"
   },
   "autoload": {
     "psr-4": {
@@ -28,9 +31,6 @@
     }
   },
   "minimum-stability": "stable",
-  "require-dev": {
-    "madewithlove/php-cs-fixer-config": "^1.8"
-  },
   "scripts": {
     "lint": "php-cs-fixer fix"
   }
