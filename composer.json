@@ -10,10 +10,10 @@
     }
   ],
   "require": {
-    "php": ">=8.2",
-    "illuminate/console": "^10.7.1",
-    "barryvdh/laravel-debugbar": "^3.8.1",
-    "clue/stdio-react": "^2.6.0"
+    "php": ">=5.5.9",
+    "illuminate/console": ">=5.1.0",
+    "barryvdh/laravel-debugbar": ">=2.3",
+    "clue/stdio-react": "~2.1"
   },
   "require-dev": {
     "madewithlove/php-cs-fixer-config": "^1.8"
