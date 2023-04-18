@@ -9,7 +9,7 @@ Useful if you are building apis or running console commands.
 
 You can install the latest version via [composer](https://getcomposer.org/):
 ```bash
-composer require --dev madewithlove/laravel-debug-console
+composer require --dev biohazard/laravel-debug-console
 ```
 
 Add the service provider to `config/app.php` if you are on laravel 5.4 or bellow:
